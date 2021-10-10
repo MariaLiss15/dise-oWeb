@@ -49,16 +49,20 @@
 
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  display:block;
+  margin:auto;
   }
   
   #icon-perfil {
   background: url('../img/mujer.png') no-repeat left center;
   height: 30px;
-  padding-left: 25px;
+  padding-left: 30px;
   }
-
+.nav li{
+  display: list-item;
+  position:relative;
+  border-bottom: 1px solid #e9ecf2;
+}
 #contenedor{
  margin-left: 250px ;
 }
@@ -66,3 +70,42 @@ ul {
 .nav {
   margin-top: 30%;
 }
+
+.cabecera-nav{
+  background-color: #8f5faf;
+  min-height: 70px;
+  padding-left: 15px;
+  width: 200px;
+}
+.logo{
+  padding: 0px;
+  display:block;
+  margin:auto;
+}
+
+li a{
+  text-decoration:none;
+  padding:5px 10px;
+  color:rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+  }
+  li a:hover{
+    color:rgb(151, 136, 136);
+    background-color:rgb(177, 69, 69);
+                
+    }
+nav ul li{
+  list-style-type:none;
+  border:1px solid #000;
+  white-space: nowrap;
+  padding: 10px 0px;
+  width: 200px;
+  height:30px;
+  margin-left: 0px;
+
+}
+          
+nav li:hover ul{display:block;}
+nav{
+   margin-left: 0px; 
+  }
