@@ -1,18 +1,25 @@
 
 
+.div-foto-perfil{
+  width: 400px;
+  height: 200px;
+}
 
-
+.tablas{
+  width: 400px;
+  height: auto;
+  background-color: #8f5faf9a;
+  margin:0px;
+}
 .foto-perfil{ 
-    padding: 0px; 
-    margin: 10px; 
     border: 1px solid black;  
-    width: 100px; 
-    margin-left: 80px;
+    width: 100px;
+    display: block;
+    margin: auto;
   }
 .tablas th {
       font-family:Arial, Helvetica, sans-serif;
       text-align: left;
-      width: 150px;
       height: 20px;
       font-weight:bold;
       white-space: nowrap;
@@ -20,17 +27,15 @@
 .tablas td {
       font-family: Calibri ;
       text-align: left;
-      width: 150px;
       height: 20px;
       white-space: nowrap;
     }
-    .tablas caption{
-      font-weight:bold;
-      margin-bottom: 10px;
-    }
-.tablas table{
-  margin-bottom: 20px;
-}
+  .tablas caption{
+    font-weight:bold;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+  }
+
 .tablas li {
   font-family: Calibri ;
   text-align: left;
@@ -47,34 +52,27 @@
   padding-left: 0em;
 }
 
-ul {
+nav ul {
   list-style-type: none;
-  display:block;
-  margin:auto;
+  padding: 0px;
+  width: 200px;
+  float: left;
+  margin: 0px;
   }
   
-  #icon-perfil {
-  background: url('../img/mujer.png') no-repeat left center;
-  height: 30px;
-  padding-left: 30px;
-  }
 .nav li{
   display: list-item;
   position:relative;
   border-bottom: 1px solid #e9ecf2;
+  
 }
 #contenedor{
- margin-left: 250px ;
+ margin-left: 200px;
 }
 
-.nav {
-  margin-top: 30%;
-}
 
 .cabecera-nav{
   background-color: #8f5faf;
-  min-height: 70px;
-  padding-left: 15px;
   width: 200px;
 }
 .logo{
@@ -85,27 +83,35 @@ ul {
 
 li a{
   text-decoration:none;
-  padding:5px 10px;
+  padding: 0 4px;
   color:rgb(0, 0, 0);
-  background-color:rgb(255, 255, 255);
-  }
-  li a:hover{
-    color:rgb(151, 136, 136);
-    background-color:rgb(177, 69, 69);
-                
-    }
+  display: block;
+  text-align: center;
+  line-height: 100px;
+}
+
+nav ul li a:hover{
+	background-color: #8f5faf9a;
+	color: rgb(255, 255, 255);
+	position: relative;
+}
 nav ul li{
   list-style-type:none;
-  border:1px solid #000;
   white-space: nowrap;
-  padding: 10px 0px;
-  width: 200px;
-  height:30px;
-  margin-left: 0px;
-
+  padding: 0px;
+  height: 100px;
 }
           
-nav li:hover ul{display:block;}
 nav{
-   margin-left: 0px; 
+  display: block;
+  float:left;
+  width: 200px;
+  height: 800px;
+  background-color: #8f5faf13;
   }
+#nombre-perfil{
+  text-align: center;
+}
+.tables table{
+  margin:0px;
+}
