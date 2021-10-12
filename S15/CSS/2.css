@@ -1,0 +1,33 @@
+/*.grid{
+    display:grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+}
+.a,.b,.c,.d{
+    border: 2px solid rgb(207, 207, 181);
+}*/
+
+.grid{
+    display:grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "head head" "menu contenido" "foot foot";
+}
+
+.a{
+grid-area: head;
+background-color: rebeccapurple;
+}
+.b{
+    grid-area: menu;
+    background-color: rgb(69, 66, 71);
+}
+.c{
+    grid-area: contenido;
+    background-color: rgba(42, 60, 163, 0.158);
+}
+.d{
+    grid-area: foot;
+    background-color: rgb(149, 172, 166);
+}
+
