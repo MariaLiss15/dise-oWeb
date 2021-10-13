@@ -1,3 +1,6 @@
+body{
+    font-family:sans-serif;
+}
 .foto-estudiante1{
     height: 95%;
     padding-bottom: 5px;
@@ -177,15 +180,18 @@ nav div a:hover,aside div a:hover,#caja-1 div a:hover{
 }
 .mapa iframe{
     height: 100px;
-    width: 150px;
+    width: 215px;
     border:0;
 }
 .imagen-section{
     height: 200px;
 }
-.my-main div section, .my-main div h2{
+.my-main div section{
     margin-left: 20px;
+    float: left;
+
 }
+
 
 .my-main p{
     margin-right: 40px;
@@ -193,6 +199,7 @@ nav div a:hover,aside div a:hover,#caja-1 div a:hover{
 .my-main img{
     float: left;
     margin-right: 30px;
+    margin-bottom: 20px;
 }
 .my-main section{
     text-align: justify;
