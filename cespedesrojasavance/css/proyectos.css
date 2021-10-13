@@ -1,0 +1,182 @@
+.foto-estudiante1{
+    height: 95%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.foto-estudiante2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 75%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.grid{
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 200px 1fr 200px;
+    grid-template-areas: "header header" "barra main" "foot foot";
+}
+
+header{
+grid-area: header;
+background-color: #C1C2D9;
+border: 2px solid black;
+}
+
+.barra{
+    grid-area: barra;
+    background-color: #D9DBDB;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    border-right: 2px #C1C2D9 solid;
+}
+aside{
+    margin-bottom: 20px;
+}
+.my-main{
+    grid-area: main;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+
+footer{
+    grid-area: foot;
+    background-color: #C1C2D9;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#caja-1{
+    width: 100%;
+    float: left;
+    background-color: #D9DBDB;
+}
+#caja-1 a{
+    font-weight:bolder;
+    font-size: 20px;
+}
+#caja-2,#caja-3,#caja-4,#caja-5{
+    float: left;
+    margin-top:10px;
+    margin-left: 8%;
+    margin-bottom: 10px;
+}
+.main-caja a,.menu-caja a, .enlaces-caja a{
+    text-decoration:none;
+    display: block;
+}
+
+.subtitulo-barra{
+text-align: center;
+margin-bottom: 10px;
+}
+.contenedor-menu-caja{
+    line-height: 30px;
+}
+.contenedor-enlaces-caja{
+    line-height: 30px;
+}
+.menu-caja{
+    text-indent: 15px;
+    background-color: #E6E8E8;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px rgb(0, 0, 0) solid;
+}
+.enlaces-caja{
+    text-indent: 15px;
+    background-color: #E6E8E8;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px rgb(0, 0, 0) solid;
+}
+.div-foto2{
+    width: 13%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+}
+.foot-caja-principal{
+    width: 70%;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+.foot-caja{
+    margin:5px;
+    float: left;
+}
+
+.header-caja1{
+    height: 100%;
+    width: 15%;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+}
+
+.header-caja2{
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+.header-caja2 h2{
+    margin-top: 65px;
+    margin-bottom: 10px;
+}
+.header-caja2 h2, .header-caja2 h3{
+    margin-left: 40px;
+}
+.header-caja3 h3{
+    float: right;
+    margin:20px;
+}
+#menu-caja1,#menu-caja1 a:hover{
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+#menu-caja4,#menu-caja4 a:hover{
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+}
+#enl-caja1,#enl-caja1 a:hover{
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+#enl-caja4,#enl-caja4 a:hover{
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+}
+
+.tabla-footer td, .tabla-footer tr th{
+     width: 200px;
+}
+.tabla-footer{
+    margin-top: 15px;
+    border-spacing: 20px 10px;
+    white-space: nowrap;
+    text-align: left;
+}
+nav div a:hover,aside div a:hover,#caja-1 div a:hover{
+	background-color: #a8a9d6;
+	color: rgb(255, 255, 255);
+}
+.mapa {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 17%;
+}
+.mapa h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.mapa iframe{
+    height: 100px;
+    width: 150px;
+    border:0;
+}

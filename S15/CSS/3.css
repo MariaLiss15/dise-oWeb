@@ -9,21 +9,26 @@
 header{
 grid-area: head;
 background-color: rgb(224, 200, 248);
+border: solid black;
 }
 nav{
     grid-area: menu;
     background-color: rgb(187, 172, 197);
+    border: solid black;
 }
 section{
     grid-area: contenido;
     background-color: rgba(42, 60, 163, 0.158);
+    border: solid black;
 }
 aside{
     grid-area: aside;
     background-color: rgb(68, 163, 138);
+    border: solid black;
 }
 footer{
     grid-area: foot;
     background-color: rgb(5, 66, 50);
+    border: solid black;
 }
 

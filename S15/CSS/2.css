@@ -17,6 +17,7 @@
 .a{
 grid-area: head;
 background-color: rebeccapurple;
+border: solid black;
 }
 .b{
     grid-area: menu;
