@@ -183,43 +183,4 @@ nav div a:hover,aside div a:hover,#caja-1 div a:hover{
 }
 .my-main{
     margin-left: 20px;
-    text-align: center;
 }
-
-.contenedor-proyectos{
-    width: 60%;
-    margin: 0 40px;
-    float: left;
-    text-align: center;
-    white-space: nowrap;
-    margin-bottom: 20px;
-}
-.cont-proyec {
-    position: relative;
-    width: 160px;
-    height: 190px;
-    float: left;
-    margin: 2%;
-    text-align: center;
-}
-.cont-proyec h4{
-    margin-bottom: 5px;
-}
-.cont-proyec img{
-    height: 100px;
-    margin: 30px;
-}
-.cont-proyec a{
-    width: 100%; 
-    float: left;
-}
-.div-img-proyecto{
-    margin-top:50px;
-}
-.div-img-proyecto img{
-    height: 400px;
-    margin-left: 60px;
-}
-
-
-

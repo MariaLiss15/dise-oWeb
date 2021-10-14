@@ -18,42 +18,37 @@ body{
     min-height: 100vh;
     display:grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows: 200px 1fr 200px;
-    grid-template-areas: "header header" "barra main" "foot foot";
+    grid-template-rows: 200px 50px 1fr 200px;
+    grid-template-areas: "header header" "barra nav2" "barra main" "foot foot";
 }
-
 header{
 grid-area: header;
 background-color: #C1C2D9;
-border: 2px solid black;
 }
 
 .barra{
     grid-area: barra;
     background-color: #D9DBDB;
-    border-left: 2px black solid;
-    border-bottom: 2px black solid;
+    border-left: 2px #C1C2D9 solid;
+    border-bottom: 2px #C1C2D9 solid;
     border-right: 2px #C1C2D9 solid;
 }
 aside{
     margin-bottom: 20px;
 }
-.my-main{
-    grid-area: main;
-    border-right:2px solid black;
-    border-bottom:2px solid black;
-}
-
-footer{
+footer {
     grid-area: foot;
     background-color: #C1C2D9;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
+}
+.my-main{
+    grid-area: main;
+
 }
 #caja-1{
-    width: 100%;
-    float: left;
+    grid-area:nav2;
+}
+
+#caja-1{
     background-color: #D9DBDB;
 }
 #caja-1 a{
@@ -185,22 +180,32 @@ nav div a:hover,aside div a:hover,#caja-1 div a:hover{
 }
 .imagen-section{
     height: 200px;
-}
-.my-main div section{
-    margin-left: 20px;
-    float: left;
-
-}
-
-
-.my-main p{
-    margin-right: 40px;
-}
-.my-main img{
     float: left;
     margin-right: 30px;
     margin-bottom: 20px;
+    white-space: nowrap;
 }
+
+.my-main h3{
+    float: left;
+    width: 100%;
+}
+.my-main p{
+    position: relative;
+}
+
 .my-main section{
     text-align: justify;
+    margin-right: 40px;
+    margin-left: 40px;
+    line-height:7mm;
+    display: inline-block;
+}
+
+.secciones h2{
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 15px;
+  
 }
