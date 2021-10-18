@@ -1,0 +1,19 @@
+#caja1{
+    height: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#caja2{
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+#caja3{
+    line-height: 40PX;
+    background-color: rgb(243, 210, 161);
+}
+#caja4{
+    background-color: rgba(184, 184, 58, 0.39);
+    width: 200px;
+    float: right;
+}

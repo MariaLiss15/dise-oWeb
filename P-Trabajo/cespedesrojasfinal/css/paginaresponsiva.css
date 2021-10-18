@@ -1,0 +1,135 @@
+.grid{
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 320px 1fr 200px 150px;
+    grid-template-areas: "menu" "contenido" "aside" "foot";
+}
+
+nav{
+    grid-area: menu;
+    background-color: rgba(83, 158, 177, 0.712);
+}
+section{
+    grid-area: contenido;
+    background-color: rgba(255, 255, 255, 0.158);
+    display: block;
+}
+aside{
+    grid-area: aside;
+    background-color: rgba(83, 158, 177, 0.712);
+}
+footer{
+    grid-area: foot;
+    background-color: rgba(49, 177, 228, 0.671);
+}
+
+nav ul {
+    padding:0px;
+  }
+  nav ul li{
+    height: 50px; 
+    list-style-type: none;
+    white-space: nowrap;
+    border-bottom: 1px solid #e9ecf2;
+    align-items: center;
+  }
+  nav ul li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    line-height:50px;
+    display: block;
+  }
+  nav li a:hover{
+      background-color: #8f5faf9a;
+      color: rgb(255, 255, 255);
+  }
+.imagen{
+   width: 90px;
+}
+.fila{
+    width: 95%;
+    margin: 3px;
+    height: 250px;
+}
+.caja-img{
+    float: left;
+    width: 28%;
+    margin-left: 2px;
+}
+.caja-parrafo{
+    float: right;
+    width: 68%;
+    text-align: justify;
+    padding-left: 5px;
+}
+.caja-parrafo h3{
+    margin:0px;
+    width: 100%;
+}
+aside{
+    text-align: justify;
+}
+aside p,aside h3{
+    margin:10px;
+    font-size: 10px;
+}
+footer{
+    text-align: center;
+}
+
+@media(min-width:600px) and (max-width:1000px){
+    .grid {
+        grid-template-columns: 20% 85%;
+        grid-template-rows: 1fr 1fr 50px ;
+        grid-template-areas: "menu contenido" "aside contenido" "foot foot";
+    }
+    nav ul li{
+        height: 60px; 
+    }
+    nav ul li a{
+        line-height:60px;
+    }
+    .imagen{
+        width: 150px;
+     }
+}
+@media (min-width: 1001px) {
+    .grid {
+        grid-template-columns: 250px 1fr 250px;
+        grid-template-rows: 1fr 100px;
+        grid-template-areas: "menu contenido aside" "foot foot foot";
+    }
+    nav ul li{
+        height: 60px; 
+    }
+    nav ul li a{
+        line-height:60px;
+    }
+    .imagen{
+        width: 200px;
+     }
+     .caja-img{
+        float: left;
+        width: 20%;
+        margin-left: 9px;
+    }
+    .caja-parrafo{
+        float: left;
+        text-align: justify;
+        padding-left: 5px;
+    }
+    .fila{
+        width: 95%;
+        margin: 3px;
+        height: 300px;
+    }
+    footer{
+        text-align: center;
+        font-size: 20px;
+    }
+    aside p,aside h3{
+        margin:10px;
+        font-size: 20px;
+    }
+}
