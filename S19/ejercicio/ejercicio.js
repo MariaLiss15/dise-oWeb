@@ -15,16 +15,14 @@ function MetodogetElementsByClassName(){
 }
 
 function obtenerTotal(){
-    a = parseInt(document.getElementsByClassName("precio")[0].innerHTML);
-    b = parseInt(document.getElementsByClassName("precio")[1].innerHTML);
-    c = parseInt(document.getElementsByClassName("precio")[2].innerHTML);
-
-    var sum = a+b+c;
+    a = parseInt(document.getElementsByClassName("precio")[0].innerHTML,10);
+    b = parseInt(document.getElementsByClassName("precio")[1].innerHTML,10);
+    var sum = a+b;
     document.getElementById("total").innerHTML = sum;
 }
 
 
 function vertotal(){
     x = document.getElementById("total").innerHTML;
-    document.write("<h2>El monto total es: " + x + " soles</h2>");
+    document.write("<h2>El monto total es: " + x + "</h2>");
 }
